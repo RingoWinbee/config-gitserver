@@ -1,3 +1,9 @@
+eureka: #配置要eureka的信息
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8763/eureka/
+  instance:
+    prefer-ip-address: true
 test: 
     user: 
        name: dev
